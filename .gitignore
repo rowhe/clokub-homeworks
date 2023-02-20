@@ -41,4 +41,3 @@ override.tf.json
 terraform.rc
 .terraform.lock*
 key.json
-*tfvars*
