@@ -271,6 +271,7 @@ rtt min/avg/max/mdev = 51.328/51.649/52.252/0.426 ms
 ```
 
   * Как можно видет все ВМ имеют доступ в интернет. Задание выполнено
+  * Полный файл конфигурации `terraform` [main.tf](./infrastructure/terraform/main.tf)
 
 Resource terraform для ЯО
 - [VPC subnet](https://registry.terraform.io/providers/yandex-cloud/yandex/latest/docs/resources/vpc_subnet)
