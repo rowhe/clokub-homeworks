@@ -15,8 +15,7 @@ resource "yandex_vpc_subnet" "public" {
   zone = "ru-central1-a"
   network_id = "${yandex_vpc_network.diploma.id}"
   description = "public subnet for diploma purposes"
-  route_table_id = "${yandex_vpc_route_table.diploma-private.id}"
-}
+  }
 
 resource "yandex_vpc_subnet" "private" {
   name = "private-subnet"
